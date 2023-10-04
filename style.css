@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F7AEB0;
+    gap: 2rem;
+
+}
+.firstCard{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+   height: 3rem;
+   background-color: azure;
+   border-radius: 1rem;
+   color: rgb(46, 45, 45);
+   font-weight: 500;
+   cursor: pointer;
+}
+.firstCard #arrow{
+    position: absolute;
+    height: 1rem;
+    right: 2rem;
+    transition: all 0.6s linear;
+}
+.selectfield{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#selectText{
+    position: absolute;
+   left: 3rem;
+   font-size: 1.6rem;
+
+}
+.secondCard{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: azure;
+    width: 20rem;
+    height: 26rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    
+
+
+}
+ul{
+    list-style: none;
+   
+}
+.mediaIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+.options {
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 0 0 0 4rem;
+    text-align:left;
+}
+.mediaIcon img{
+    position: absolute;
+    height: 3rem;
+    left: 3rem;
+}
+ul li{
+    font-size: 1.8rem;
+}
+/* .active{
+    visibility: hidden;
+} */
+.rotate{
+    transform: rotate(180deg);
+}
+.hide{
+    visibility: hidden;
+}
